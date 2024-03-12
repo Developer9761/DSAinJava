@@ -1,0 +1,46 @@
+.box{
+ border: 2px solid black;
+ justify-content: center;
+ margin-left: 32%;
+  height: 450px;
+  width: 450px;
+}
+.box2{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.unorder{
+    display: flex;
+}
+.unorder2{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.box3{
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+#apply{
+    margin: 4px;
+}
+.add{
+    margin-left: 40px;
+}
+.unorder3{
+    display: flex;
+}
+.unorder4{
+    display: flex;
+    
+}
+.file{
+     margin-left: 103.5px;
+}
+ 

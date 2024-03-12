@@ -1,0 +1,65 @@
+/* header{
+    display: grid;
+    grid-template-rows: -50vh;
+} */
+ 
+#product{
+     /* border: 1px solid black; */
+     border: none;
+     height: 20px;
+     margin-top: 15px;
+}
+#Pricing{
+    border: none;
+    height: 20px;
+    margin-top: 15px;
+}
+#Resources{
+    border: none;
+    height: 20px;
+    margin-top: 15px;
+}
+#AboutUs{
+    border: none;
+    height: 20px;
+    margin-top: 15px;
+}
+#product:hover{
+    /* border: 1px solid black; */
+    border:2px solid black; 
+     
+  
+}
+#Pricing:hover{
+   border: 2px solid black;
+    
+
+}
+#Resources:hover{
+    border: 2px solid black;
+}
+#AboutUs:hover{
+    border: 2px solid black;
+}
+.unorder{
+    display: flex;
+     float: right;
+}
+.list{
+    margin: 5px;
+    padding: 10px;
+    list-style: none;
+}
+.language{
+  height:3vh ;  
+  margin: 18px 10px ;
+  padding: 1px;
+}
+.logo{
+    height: 15vh;
+    float: left;
+    margin-top: 0px;
+}
+ .language:hover{
+    border: 2px solid black ;
+ }

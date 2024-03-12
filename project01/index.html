@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form action=""> 
+    <center>
+        <h2>JOB Application(WEB)</h2>
+    </center>
+    <div class="box">
+
+        <ul class="unorder">
+            <li>FirstName* <input type="text" name="name" id="name" placeholder="Enter your First Name" required > </li>
+            <li>LastName* <input type="text" name="lastname" id="lastname" placeholder="Enter Your Last Name" required>
+            </li>
+        </ul>
+        <ul class="unorder2">
+            <li>E-mail* <input type="email" name="email" id="email" required></li>
+            <li>
+                JobRole*
+                <select name="jobrole" id="jobrole" required>
+                    <option value="">---select any job role---</option>
+                    <option value="SDE1">SDE1</option>
+                    <option value="SDE2">SDE2</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Android Developer ">Android Developer </option>
+                </select>
+                </option>
+            </li>
+        </ul>
+        <li class="add">Address* <br> <textarea name="textarea" id="text" cols="48" rows="5" placeholder="Enter your full Address" required ></textarea></li>
+        <ul class="unorder3">
+            <li>Pincode* <input type="number" name="pincode" id="pin" required></li>
+            <li>City* <input type="text" name="city" id="city" required></li>
+        </ul>
+        <ul class="unorder4">
+            <li>Select Date*
+                <input type="date" name="date" id="date"  required>
+            </li>
+            <li class="file">
+                Upload Resume* <input type="file" name="resume" id="resume" required>
+            </li>
+        </ul>
+        <div class="box3">
+            <center> <button type="submit" id="apply">Apply Now</button></center>
+            <center><button type="reset" id="reset">Reset</button> </center>
+        </div>
+    </div>
+</form>
+</body>
+
+</html>

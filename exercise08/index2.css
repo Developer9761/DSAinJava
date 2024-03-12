@@ -1,0 +1,35 @@
+.container{
+    border: 1px solid black;
+    height: 10px;
+    width: 200px; 
+    display: flex;
+    /* justify-content: center; */
+    align-items: center; 
+    
+}
+/* .greenbox{   
+border: 1px solid green;
+height: 10px;
+width: 10px; */
+/* margin-bottom: 6.5px; */
+/* margin-left: 30%; */
+/* } */
+.con{
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    animation-name: loading;
+    animation-duration: 5s;
+    
+}
+@keyframes loading{
+5%{
+    transform: translateX(10%);
+    background-color: rgb(60, 238, 60);
+}
+
+}

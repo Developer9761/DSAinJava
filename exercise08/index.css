@@ -1,0 +1,85 @@
+.container {
+    background-color: blue;
+    height: 80vh;
+    width: 70vw;
+    position: relative;
+}
+
+.box {
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 80px;
+    animation: animationX 3s linear infinite , animationY 3s ease-out infinite alternate;
+}
+
+/* .box {
+    animation-name: firstanimation;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+} */
+ 
+
+/* @keyframes firstanimation {
+    5% {
+        transform: rotate(90deg);
+    }
+
+    10% {
+        transform: translateY(-250%) translateX(120px);
+
+    }
+
+    30% {
+        transform: translateY(-250%) translateX(120px);
+    }
+
+    40% {
+        transform: translateX(200px);
+
+    }
+
+    50% {
+
+        transform: translateY(-250%) translateX(300px);
+
+    }
+
+    80% {
+        transform: translateX(500px);
+    }
+
+    90% {
+        transform: translateY(-250%) translateX(700px);
+    }
+
+    99% {
+        transform: translateX(810px);
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        animation-direction: alternate-reverse; */
+    /* } */
+
+/* } */
+@keyframes animationX {
+    from{
+     left: 0%;
+    }
+    to{
+     left: 100%;
+    }
+}
+@keyframes animationY {
+    from{
+        bottom: 0%;
+    }
+    to{
+        bottom: 50%;
+    }
+    
+}
