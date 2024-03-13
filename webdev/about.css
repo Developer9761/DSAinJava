@@ -1,0 +1,16 @@
+ .name {
+     font-weight: bold;
+ }
+
+ .pi {
+     outline: 3px solid black; 
+     border-radius: 100px;
+     box-shadow: 2px 3px 10px 5px rgb(0, 255, 255);
+  }
+ .pic2{
+    padding: 15px;
+ }
+ .pi:hover{
+    box-shadow: 2px 3px 10px 5px yellow;
+ }
+  

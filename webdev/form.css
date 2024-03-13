@@ -1,0 +1,65 @@
+/* h1{
+    background-color: lightblue;
+}
+.ranjeet{
+
+background-color: greenyellow;
+text-align: center;
+}
+.pay{
+    background-color: brown;
+} */
+nav a{
+    font-size: 20px;
+     text-decoration: none;
+    color: white;
+    padding: 10px;
+    float: left;
+}
+nav{
+    background-color: black;
+     overflow: hidden ;
+}
+h1 {
+
+    text-align: left;
+    color: blue
+}
+
+.b:hover {
+    background-color: rgb(248, 87, 87);
+    color: aqua;
+    letter: spacing 5px;
+}
+nav a:visited{
+    color: rgb(21, 231, 21);
+}
+
+.c {
+    color: rgb(27, 207, 183);
+}
+.v {
+    padding-left: 1%;
+}
+
+.l:hover {
+
+    background-color: aqua;
+}
+.ac a{
+      text-decoration:none;
+      padding: 10px;
+       color: white;
+      float: left;
+}
+.ac{
+    background-color: black;
+    overflow: hidden;
+}
+.ac a:hover{
+    background-color: rgb(223, 97, 248);
+    color:  rgb(6, 233, 6);
+}
+.im{
+    padding: 10px;
+}

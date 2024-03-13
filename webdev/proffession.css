@@ -1,0 +1,24 @@
+.pro a{
+    text-align: right;
+    text-decoration: none;
+    color: blue;
+}
+.pro a:hover {
+    color: aquamarine ;
+}
+.pro a:hover:visited{
+color: rgb(60, 241, 10);
+}
+.a{
+    box-shadow: 2px 2px 15px 5px rgb(7, 173, 202);
+     /* border: 3px solid red; */
+     outline: 3px solid aqua;  
+    border-radius: 1000px;
+}
+.pic{
+    padding: 3px;
+}
+.a:hover{
+    box-shadow: 2px 2px 15px 5px green;
+}
+ 

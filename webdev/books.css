@@ -1,0 +1,24 @@
+.book a {
+    color: blue;
+    text-decoration: none;
+}
+
+.book a:hover {
+    color: aqua;
+}
+
+.book02 a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    float: left;
+}
+.book02{
+    background-color: rgb(5, 86, 5);
+    margin: 5px;
+    overflow: hidden;
+}
+
+.book02 :hover {
+    background-color: rgb(65, 241, 112);
+}

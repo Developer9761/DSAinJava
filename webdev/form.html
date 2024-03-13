@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- <link rel="stylesheet" href="form.css"> -->
+</head>
+
+<body>
+    <form action="#">
+
+        <h1>
+            <center> Payment Form </center>
+        </h1>
+        <center>
+            <p class="sea">Search <input type="search" name="search" id="search" placeholder="Search the product"> </p>
+        </center>
+        <h2  class="ranjeet">Payment Deatils</h2>
+        <p>Name: <input type="text" name="name" placeholder="Enter your name" required></p>
+        <p>Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender" id="" required> </p>
+        <p>Address: <textarea name="Address" id="" cols="30" rows="10" placeholder="Enter your Full Address"></textarea>
+        </p>
+        <p>Pincode: <input type="number" name="pincode" id="Pincode" required> </p>
+        <p>E-mail: <input type="email" name="email" id="Mail" required> </p>
+        <p>Phone Number <input type="number" name="Phone" id="phone" required> </p>
+        <h2>Card Details</h2>
+        <p>Card type: 
+            <select name="card" id="card" required>
+                <option value="">---select a card type---</option>
+                <option value="visa">Visa</option>
+                <option value="Rupay">Rupay</option>
+                <option value="Mastercard">MasterCard</option>
+                <option value="Others">Others</option>
+            </select>
+        </p>
+        <p>Card Number: <input type="number" name="cardnumber" id="cardnumber" required> </p>
+        <p>cvv: <input type="password" name="cvv" id="cvv" required> </p>
+        <p>Expiry Date: <input type="date" name="Date" id="date" required> </p>
+        <p> Upload card : <input type="file" name="file_01" id="file_01"> </p>
+    
+        <button class="pay">Pay Now</button>
+        <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
